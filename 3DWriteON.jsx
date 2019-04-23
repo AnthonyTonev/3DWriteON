@@ -107,7 +107,7 @@
             } else if (item === 3) {
 
                 add_Null_Pen();
-                nullObject.property("Position").expression = "freq=1;\nt=time+47\n;theta = 2 * Math.PI;\nalpha = 0.1;\nx = (Math.cos(t * alpha*freq)) * (Math.cos(t* theta*freq));\ny = (Math.cos(t * alpha*freq)) * (Math.sin(t * theta*freq));\nz = (Math.sin(t * alpha*freq));\nvalue +[x * " + wInc + ", y * " + hInc + ", z * " + dInc + " ];";
+                nullObject.property("Position").expression = "freq=1;\nt=time+47;\ntheta = 2 * Math.PI;\nalpha = 0.1;\nx = (Math.cos(t * alpha*freq)) * (Math.cos(t* theta*freq));\ny = (Math.cos(t * alpha*freq)) * (Math.sin(t * theta*freq));\nz = (Math.sin(t * alpha*freq));\nvalue +[x * " + wInc + ", y * " + hInc + ", z * " + dInc + " ];";
 
             } else if (item === 4) {
                 nullObject = activeItem.layers.addNull();
