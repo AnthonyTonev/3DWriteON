@@ -1,6 +1,6 @@
 ﻿﻿{
     function ScriptBody(thisObj) {
-        var scriptName = "3DWriteON";
+        var scriptName = "3DWriteON v1.1";
         var dropNum = 0;
 
 
